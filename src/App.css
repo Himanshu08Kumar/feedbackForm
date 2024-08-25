@@ -218,6 +218,13 @@ input:focus {
 .about p {
   margin: 10px 0;
 }
+.footer{
+  text-align: center;
+  color: gray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
 @media (max-width: 600px) {
   .rating li {
