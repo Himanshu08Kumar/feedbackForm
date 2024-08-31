@@ -12,4 +12,4 @@ const FeedbackCard = ({ rating, review , onDelete}) => {
   )
 }
 
-export default FeedbackCard
+export default FeedbackCard;

@@ -1,17 +1,19 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Form from './components/Form';
-import Footer from './components/Footer';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Form from "./components/Form";
+import {CounterProvider} from './context/CounterContext' 
+
 
 function App() {
-  
+ 
   return (
     <>
-    <Navbar/>
-    <Form/>
-    <Footer/>
+    <CounterProvider>
+      <Navbar />
+      <Form />
+    </CounterProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

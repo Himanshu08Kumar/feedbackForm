@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CounterContext } from '../context/CounterContext'
 
-const Average = ({averageRating, totalReviews}) => {
+const Average = () => {
+  const {averageRating, totalReviews} = useContext(CounterContext)
   return (
     <div className=' feedback-stats1'>
       <span>{totalReviews} Rating</span>
