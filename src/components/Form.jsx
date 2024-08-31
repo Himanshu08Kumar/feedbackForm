@@ -63,7 +63,9 @@ const Form = () => {
           </button>
         </form>
       </div>
+
       <Average  />
+      
       <div className="feedback-list">
         {feedbacks.length === 0 ? (
           <p>No feedback submitted yet.</p>
